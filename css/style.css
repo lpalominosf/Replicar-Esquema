@@ -1,94 +1,52 @@
-div {
-	width: 200px;
-	height: 200px;
-	float: left;
-}
-
-body{
-	font-family: 'Roboto Mono', monospace;
-	font-size: 13px;
+h1{
+	font-family: 'Sanchez', serif;
+	font-size: 30px;
 	color: #fff;
-	background-image: url(../img/fondo.png);
-
 }
 
 hr{
-	width: 150px; /*Le da grosor a mi linea horizontal*/
 	margin-left: 0px;
+	width: 130px;
 	height: 5px;
-  	background-color: black;
+	color: white;
+	margin-top: -10px;
+	background: white;
 }
 
-#jojo1{
-	background-image: url(../img/jojo1.png);
-	background-size: 100%; /*toma el tamaño de fondo del div que son 150x150px*/
+body{
+	background: url(../img/fondo.png);
+}
+
+div.jojo{
+	width: 300px;
+	height: 300px;
 	float: left;
-	margin-left: 4px;
+	margin: 10px;
+	background-color: black;
+}
+
+div.jojo img{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	min-width: 250px;
+	max-height: 100%;
 	position: relative;
+	opacity: 0.5;
 }
 
-h2 span {
-color: white;
-font-family: 'Roboto Mono', monospace;
-letter-spacing: -1px;
-padding: 10px;
-text-align: left;
+div.jojo img:hover{
+	opacity: 1;
 }
 
-#jojo2{
-	background-image: url(../img/jojo2.jpg);
-	background-size: 100%;
-	float: left;
-	margin-left: 50px;
+div.jojo p{
 	position: relative;
+	bottom: 50px;
+	color: white;
+	text-align: center;
+	font-family: 'Sanchez', serif;
+	font-size: 15px;
+	margin-right: 10px;
 }
 
-#jojo3{
-	background-image: url(../img/jojo3.png);
-	background-size: 100%;
-	float: left;
-	margin-left: 50px;
-	position: relative;
-}
 
-#jojo4{
-	background-image: url(../img/jojo4.png);
-	background-size: 100%;
-	float: left;
-	margin-left: 50px;
-	position: relative;
-}
-
-#jojo5{
-	background-image: url(../img/jojo5.png);
-	background-size: 100%;
-	float: left;
-	margin-top: 50px;
-	margin-right: 1000px;
-	position: relative;
-}
-
-#jojo6{
-	background-image: url(../img/jojo6.jpg);
-	background-size: 100%;
-	margin-left: 200px;
-	position: relative;
-}
-
-#jojo7{
-	background-image: url(../img/jojo7.png);
-	background-size: 100%;
-	float: left;
-	margin-top: 10px;
-	margin-right: 0px;
-	position: relative;
-}
-
-#jojo8{
-	background-image: url(../img/jojo8.png);
-	background-size: 100%;
-	float: left;
-	margin-left: 50px;
-	position: relative;
-
-}
