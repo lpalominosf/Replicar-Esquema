@@ -1,0 +1,94 @@
+div {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+body{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 13px;
+	color: #fff;
+	background-image: url(../img/fondo.png);
+
+}
+
+hr{
+	width: 150px; /*Le da grosor a mi linea horizontal*/
+	margin-left: 0px;
+	height: 5px;
+  	background-color: black;
+}
+
+#jojo1{
+	background-image: url(../img/jojo1.png);
+	background-size: 100%; /*toma el tamaño de fondo del div que son 150x150px*/
+	float: left;
+	margin-left: 4px;
+	position: relative;
+}
+
+h2 span {
+color: white;
+font-family: 'Roboto Mono', monospace;
+letter-spacing: -1px;
+padding: 10px;
+text-align: left;
+}
+
+#jojo2{
+	background-image: url(../img/jojo2.jpg);
+	background-size: 100%;
+	float: left;
+	margin-left: 50px;
+	position: relative;
+}
+
+#jojo3{
+	background-image: url(../img/jojo3.png);
+	background-size: 100%;
+	float: left;
+	margin-left: 50px;
+	position: relative;
+}
+
+#jojo4{
+	background-image: url(../img/jojo4.png);
+	background-size: 100%;
+	float: left;
+	margin-left: 50px;
+	position: relative;
+}
+
+#jojo5{
+	background-image: url(../img/jojo5.png);
+	background-size: 100%;
+	float: left;
+	margin-top: 50px;
+	margin-right: 1000px;
+	position: relative;
+}
+
+#jojo6{
+	background-image: url(../img/jojo6.jpg);
+	background-size: 100%;
+	margin-left: 200px;
+	position: relative;
+}
+
+#jojo7{
+	background-image: url(../img/jojo7.png);
+	background-size: 100%;
+	float: left;
+	margin-top: 10px;
+	margin-right: 0px;
+	position: relative;
+}
+
+#jojo8{
+	background-image: url(../img/jojo8.png);
+	background-size: 100%;
+	float: left;
+	margin-left: 50px;
+	position: relative;
+
+}
